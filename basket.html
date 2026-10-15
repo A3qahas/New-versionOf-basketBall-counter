@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="basket.css">
+</head>
+<body>
+    
+    <div id="header">
+        
+        <div id="sh">
+            <div id="home">
+                <h2 id="team">HOME </h2>
+                    <div class="timeFont">
+                        <p id="score0">0</p>
+                        <button class="btn" onclick="inc1z()">+1</button>
+                        <button class="btn" onclick="inc2z()">+2</button>
+                        <button class="btn" onclick="inc3z()">+3</button>
+                    </div>
+            </div>
+                
+
+            <div id="guest">
+                <h2 id="team">GUEST</h2>
+                    <div class="timeFont">
+                        <p id="score1">0</p>
+                        <button class="btn" onclick="inc1o()">+1</button>
+                        <button class="btn" onclick="inc2o()">+2</button>
+                        <button class="btn" onclick="inc3o()">+3</button>
+                    </div>
+            </div>
+    
+        </div>
+
+        
+            <div id="mOptid">
+                <div>
+                 <button class="btn" id="mOpt" onclick="rematch()">REMATCH</button>
+                </div>
+                
+                        <div class="moreOp">
+                            <button class="btn" id="mOpt" onclick="winner()">Winner</button>
+                        </div>
+            </div>
+    </div>
+    <script src="basket.js"></script>
+</body>
+</html>

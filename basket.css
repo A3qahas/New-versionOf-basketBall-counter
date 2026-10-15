@@ -1,0 +1,89 @@
+@font-face {
+    font-family: timerF;
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+body{
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #059669;
+    font-size: 40px;
+}
+
+#header{
+    background-color: #047857;
+    box-shadow: 0px 0px 5px black;
+    
+    
+}
+
+#sh{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.timeFont{
+    font-family: timerF, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#score0,#score1{
+    background-color: #064E3B;
+    padding: 40px;
+    border-radius: 5px;
+    font-size: 90px;
+    margin: 0 0 26px 0;
+    color: #D1FAE5;
+    width: 150px;
+    height: 100px;
+}
+
+#team{
+    margin: 0 0 21px 0;
+}
+
+.btn{
+    padding: 12px;
+    background: transparent;
+    border: 2px solid #34D399;
+    font-size: 18px;
+    color: #34D399;
+    cursor: pointer;
+}
+
+#home{
+     margin-right: 100px;
+}
+
+#mobtid{
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ margin-top: 30px;
+ width: 100%;
+}
+
+#mOpt{
+    padding: 15px 40px;
+    width: 250px;
+}
+
+#mOptid{
+    padding-bottom: 15px;
+}
+
+.btn:hover{
+    scale: 1.1;
+    color: #2bad7e; 
+}
+
+.moreOp{
+    margin-top: 20px;
+}
